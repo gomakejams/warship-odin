@@ -9,7 +9,7 @@ import "core:time"
 import "core:strings"
 import "core:os"
 import "core:strconv"
-import rl "vendor:raylib"
+import rl "vendor:raylib/v55"
 import glue "gluelib"
 import gluerl "gluelib/raylibtools"
 
