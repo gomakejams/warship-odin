@@ -412,7 +412,7 @@ render :: proc(gameTime : glue.GameTime) {
     rl.DrawTextEx(game_data.font, "Score", { 8.0, f32(WINDOW_HEIGHT - 200) }, 40, 2, rl.BLACK);
     rl.DrawTextEx(game_data.font, fmt.ctprintf("%d", player.score), { 8.0, f32(WINDOW_HEIGHT - 160) }, 40, 2, rl.BLACK);
     rl.DrawTextEx(game_data.font, "<-,-> : Move", { f32(WINDOW_WIDTH)-140, f32(WINDOW_HEIGHT - 60) }, 16, 2, rl.BLACK);
-    rl.DrawTextEx(game_data.font, "Q,A : Fire", { f32(WINDOW_WIDTH)-140, f32(WINDOW_HEIGHT - 30) }, 16, 2, rl.BLACK);
+    rl.DrawTextEx(game_data.font, "Q,W : Fire", { f32(WINDOW_WIDTH)-140, f32(WINDOW_HEIGHT - 30) }, 16, 2, rl.BLACK);
 
     rl.DrawTextureV(player.sprite, player.position, rl.WHITE)
     when DRAW_HITBOXES {
