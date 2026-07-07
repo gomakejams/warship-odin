@@ -4,7 +4,7 @@ package gluelib_raylibtools
 import "base:runtime"
 import "core:c"
 import "core:fmt"
-import rl "vendor:raylib/v55"
+import rl "vendor:raylib"
 //import "vendor:fontstash"
 
 @(private) console_active: bool = true
